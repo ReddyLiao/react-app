@@ -1,13 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-
-const Button = styled.button`
-  display: inline-block;
-  border: 1px solid;
-  border-radius: 18px;
-  display: block;
-`;
+import { Button } from "../components/button";
 
 const Input = styled.input`
   padding: 0.8em 5em 0em 0em;
@@ -37,7 +31,7 @@ const Login = () => {
                   <div class="col-sm-5">
                     <Button className="text-dark bg-white w-100 py-1 px-sm-4 py-sm-2">
                       <img
-                        src="/image/google_Logo.png"
+                        src="/images/google_Logo.png"
                         className="float-start"
                         alt=""
                         width={24}
@@ -48,7 +42,7 @@ const Login = () => {
                   <div class="col-sm-5 ">
                     <Button className="text-dark bg-white w-100 py-1 px-sm-4 py-sm-2">
                       <img
-                        src="/image/fb_Logo.png"
+                        src="/images/fb_Logo.png"
                         className="float-start"
                         alt=""
                         width={24}

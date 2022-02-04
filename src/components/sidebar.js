@@ -8,8 +8,11 @@ const SidebarStyle = styled.div`
   min-width: 280px;
   transition: width, left, right, 0.3s;
 `;
+
 const NavitemStyle = styled.div`
   a {
+    font-size: 22px;
+    color: white;
     text-decoration: none;
     &:hover {
       color: #297380;
@@ -31,28 +34,28 @@ const Sidebar = () => {
       <SidebarStyle>
         <div className="d-flex px-4 py-4 flex-column">
           <div className="py-1 mx-auto">
-            <Link class="navbar-brand m-0" to="/home">
-              Logo
-            </Link>
+            {/* <Link class="navbar-brand m-0" to="/home">
+              LOGO
+            </Link> */}
           </div>
           <NavitemStyle className="py-3 mx-auto">
             <Link className="px-5 py-3 rounded-3" to="/home">
-              帳號管理
+              HOME
             </Link>
           </NavitemStyle>
           <NavitemStyle className="py-3 mx-auto">
             <Link className="px-5 py-3 rounded-3" to="/home">
-              <i className="fas fa-users"></i> 用戶管理
+              USERS
             </Link>
           </NavitemStyle>
           <NavitemStyle className="py-3 mx-auto">
             <Link className="px-5 py-3 rounded-3" to="/home">
-              訂單管理
+              ORDERS
             </Link>
           </NavitemStyle>
           <NavitemStyle className="py-3 mx-auto">
             <Link className="px-5 py-3 rounded-3" to="/home">
-              系統管理
+              SETTING
             </Link>
           </NavitemStyle>
         </div>

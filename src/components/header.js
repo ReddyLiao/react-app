@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Button } from "../components/button";
 import styled from "styled-components";
 
 const StyledHeader = styled.div`
@@ -24,15 +25,15 @@ const Header = () => {
           aria-expanded="true"
           aria-controls="collapseSidebar"
         >
-          <img src="/image/menu.png" width="30" alt="<<" />
+          <img src="/images/menu.png" width="30" alt="<<" />
         </button>
         <Link className="navbar-brand align-self-center" to="/home">
           Navbar Logo
         </Link>
 
         <div className="dropdown float-end">
-          <button
-            className="btn btn-standard dropdown-toggle"
+          <Button
+            className="btn btn-standard border-0 rounded-3 dropdown-toggle"
             type="button"
             id="dropdownMenuButton1"
             data-bs-toggle="dropdown"
@@ -40,7 +41,7 @@ const Header = () => {
             show="ture"
           >
             Dropdown button
-          </button>
+          </Button>
           <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
             <li>
               <a className="dropdown-item" href="#">

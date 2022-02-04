@@ -1,11 +1,10 @@
 import styled from "styled-components";
 
-export default styled.button`
-  background-color: #db7290;
-  color: white;
-  padding: 0px 32px;
+export const Button = styled.button`
+  display: inline-block;
+  border: 1px solid;
+  border: 1px solid;
   text-align: center;
   cursor: pointer;
-  border-radius: 10px;
-  border: none;
+  border-radius: 18px;
 `;
