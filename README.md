@@ -3,8 +3,8 @@
 ## About
 
 這是作為練習的專案，嘗試使用 styled-components 與 bootstrap5 建立網站，目前已有註冊頁、sidebar、header。
-![This is an image](public/imges/readme_pic1.jpg)
-![This is an image](public/imges/readme_pic2.jpg)
+![This is an image](public/imges/readme_pic1.jpeg)
+![This is an image](public/imges/readme_pic2.jpeg)
 
 # Getting Started with Create React App
 
